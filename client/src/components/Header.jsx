@@ -2,12 +2,12 @@ import{FaSearch} from 'react-icons/fa';
 import {Link} from 'react-router-dom';
 export default function Header() {
   return (
-    <header className='bg-slate-200 shadow-md'>
+    <header className='bg-slate-200 shadow-md '>
         <div className='flex justify-between items-center max-w-6xl mx-auto p-3'>
             <Link to='/'>
         <h1 classname='font-bold text-sm sm:text-xl flex flex-wrap'>
-            <span className='text-slate-500' >Shiran</span>
-            <span className='text-slate-700'>Estate</span>
+            <span className='text-slate-500 font-weight: 700' >Shiran</span>
+            <span className='text-slate-700 font-weight: 700'>Estate</span>
         </h1>
             </Link>
         <form className='bg-slate-100 p-3 rounded-lg flex items-center'>
